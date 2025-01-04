@@ -58,7 +58,7 @@ color: red;
     position: relative;
     margin: 80px auto;
     padding: 10px;
-    background-image:url(./simg.webp);
+    background-image:url(././images/simg.webp);
     background-size: cover;
 }
 .div4 span{
@@ -105,7 +105,7 @@ a{
 .about{
     height: 500px;
     width: 75%;
-    background-image: url(./2img.jpg);
+    background-image: url(././images/2img.jpg);
     margin: 150px auto ;
     background-size:cover;
     color: white;
@@ -160,7 +160,7 @@ table,tr,td,th{
     margin: 0 150px;
 }
 .schedulesec{
-    background-image: url(./img3.jpg);
+    background-image: url(././images/img3.jpg);
     color: rgb(255, 255, 255);
     background-size: cover;
     height: 750px;
@@ -241,6 +241,7 @@ margin-right: 40px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
     text-align: center;
     padding-top: 15px;
+    transition: 0.5s;
 }
 .contact_card img{
     height: 200px;
@@ -254,6 +255,7 @@ margin-right: 40px;
 }
 .contact_card:hover{
     cursor: pointer;
+    transform: translateY(-10px);
 }
 .formsec{
     display: flex;
@@ -270,7 +272,7 @@ margin-right: 40px;
 .form{
     width: 50%;
     height: 450px;
-    background-image:url(./formbac.webp);
+    background-image:url(././images/formbac.webp);
     padding: 100px;
     background-size: cover;
     color: #ffffff;
