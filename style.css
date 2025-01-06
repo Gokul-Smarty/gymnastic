@@ -178,7 +178,7 @@ caption b{
 .schedulesecdiv{
     /* margin-left: 200px; */
     margin-top: 120px;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 .w{
     color: #ffffff;
@@ -342,6 +342,9 @@ margin-right: 40px;
         justify-content: center;
     }
     .card1, .card2{
+        width: 100%;
+    }
+    .schedulesecdiv{
         width: 100%;
     }
 }
