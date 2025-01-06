@@ -188,11 +188,8 @@ caption b{
 }
 .clasdiv{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 100px;
+    margin: 50px auto;
 }
-
 .cs0 i{
 background-color: red;
 font-size: 100px;
@@ -202,7 +199,7 @@ margin-right: 40px;
 }
 .cs0{
     margin-top: 100px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     display: inline-block;
 }
 .cs1 {
@@ -212,7 +209,7 @@ margin-right: 40px;
     padding-top: 50px;
 }
 .classsec{
-    margin: 200px auto;
+    /* margin: 200px auto; */
     text-align: center;
 }
 .cimg{
@@ -222,8 +219,13 @@ margin-right: 40px;
 .class_section{
     background-color: rgba(128, 128, 128, 0.199);
     margin:100px 0;
+}
+.class-section-menu{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 .classsec button{
      margin-top: 15px;
@@ -289,6 +291,9 @@ margin-right: 40px;
     margin: 100px;
 }
 .final .map{
+    width: 100%;    
+}
+.final .map iframe{
     width: 100%;
 }
 .mes{
@@ -300,6 +305,11 @@ margin-right: 40px;
     outline: none;
     border: none;
     padding: 7px;
+}
+input[type=submit]{
+    background-color:red;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:946px) {
