@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bona Nova SC", serif;
+    
 }
 .div2 a{
     text-decoration: none;
@@ -35,21 +39,24 @@ color: red;
     color: white;
     text-align: center;
 }
-.div3 span{
+ .div3 span{
     color: red;
-}
+} 
 .div3 a{
     text-decoration: none;
     background-color: red;
     color: white;
     padding: 10px;
     border-radius: 5px;
-}
+} 
 .div3 h5{
     margin-top: 25px;
 }
 .div3 h4{
     margin-bottom: 20px;
+}
+.div3 h1{
+    margin-bottom: 25px;
 }
 .main{
     background-color: grey;
@@ -117,7 +124,7 @@ a{
     gap: 20px;
     position: relative;
     z-index: -2;
-
+    font-family: "Permanent Marker", serif;
 }
 .about span{
     color: red;
@@ -176,7 +183,7 @@ caption b{
 }
 .schedulesecdiv{
     margin-top: 120px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .w{
@@ -198,7 +205,6 @@ margin-right: 40px;
 }
 .cs0{
     margin-top: 100px;
-    /* margin-left: 80px; */
     display: inline-block;
 }
 .cs1 {
@@ -208,7 +214,6 @@ margin-right: 40px;
     padding-top: 50px;
 }
 .classsec{
-    /* margin: 200px auto; */
     text-align: center;
 }
 .cimg{
@@ -217,7 +222,6 @@ margin-right: 40px;
 }
 .class_section{
     background-color: rgba(128, 128, 128, 0.199);
-    margin:100px 0;
 }
 .class-section-menu{
     display: flex;
@@ -240,13 +244,14 @@ margin-right: 40px;
 }
 .contact_card{
     width: 300px;
-    height: 300px;
+    height: 325px;
     border-radius: 15px;
     border: 0 solid grey;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
     text-align: center;
     padding-top: 15px;
     transition: 0.5s;
+    background-color: whitesmoke;
 }
 .contact_card img{
     height: 200px;
@@ -266,18 +271,21 @@ margin-right: 40px;
 .formsec{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 250px;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
     border: 1px solid black;
     text-align: center;
-    background-color: #ffffff73;
+    border-radius: 10px;
     gap: 5px;
     color: rgb(22, 10, 240);
     border-radius: 5px;
-    margin-top: 100px;
     padding: 5px;
 }
 .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 450px;
     background-image:url(././images/formbac.webp);
@@ -285,6 +293,11 @@ margin-right: 40px;
     color: #ffffff;
     border-radius: 2px;
 }
+.gender{
+    color: white;
+}
+
+
 .final{
     display: flex;
     margin: 100px;
@@ -304,12 +317,87 @@ margin-right: 40px;
     outline: none;
     border: none;
     padding: 7px;
+    border-radius: 4px;
 }
 input[type=submit]{
     background-color:red;
     border: 1px solid black;
     border-radius: 5px;
 }
+
+
+
+
+footer img{
+    height: 100px;
+    width: 100%;
+}
+.footdiv{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    margin-left: 50px;
+}
+.footcard{
+    background-color: grey;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-top: 60px;
+}
+.f1 i{
+    font-size: 50px;
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 10px;
+    border-top: 10px solid gold;
+}
+.foot2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content:center;
+    /* padding: 3px; */
+}
+.foot_end{
+    display: flex;
+    gap: 10px;
+}
+
+.first_foot{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.second_foot{
+    margin-top: 50px;
+}
+
+.third_foot{
+    margin-top: 70px;
+}
+
+.footer{
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: black;
+}
+
+
 
 @media screen and (max-width:946px) {
     .final{
@@ -335,6 +423,11 @@ input[type=submit]{
     .div2a{
         display: none;
     }
+       .gym{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
 }
 @media screen and (max-width:490px) {
     .main{
@@ -351,6 +444,7 @@ input[type=submit]{
         width: 100%;
     }
 }
+
 @media screen and (max-width:300px) {
     .form{
         width: 100%;
@@ -359,6 +453,7 @@ input[type=submit]{
         width: 50%
     }
 }
+
 @media screen and (max-width:450px) {
     .main{
         width: 100%;
@@ -388,4 +483,25 @@ input[type=submit]{
         padding: 0;
         margin: 0%;
     }
+    .div1{
+        margin-left: 20%;
+    }
+    
+  
+    .gym{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
 }
+
+
+@media screen and (max-width:1078px) {
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
